@@ -53,6 +53,6 @@ But adding this doesn't solve the whole problem.
 The dependencies of `runtime-lib` - `google-collections` & `guava` - are still missing.
 I suspect this is because `webapp` is supposed to know about them by itself as they are listed in the 'Project and External Dependencies' in Eclipse.
 
-## Thanks to [davidnortonjr](https://github.com/davidnortonjr
+## Thanks to [davidnortonjr](https://github.com/davidnortonjr)
 
 Initial project layout taken from https://github.com/davidnortonjr/spring-boot-gradle-war
