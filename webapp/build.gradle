@@ -1,0 +1,19 @@
+apply plugin: 'groovy'
+apply plugin: 'war'
+apply plugin: 'eclipse'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+	// Ok
+    compile 'org.codehaus.groovy:groovy-all:2.3.7'
+    compile 'com.h2database:h2:1.4.184'
+    compile 'org.springframework.boot:spring-boot-starter-web:1.2.0.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-data-jpa:1.2.0.RELEASE'
+	compile project(':compile-lib')
+
+	// Missing!
+	runtimeOnly project(':runtime-lib')
+}

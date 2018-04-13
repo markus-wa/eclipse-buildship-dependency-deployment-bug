@@ -1,0 +1,18 @@
+apply plugin: 'java-library'
+apply plugin: 'eclipse-wtp'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+	// Ok
+    api 'org.apache.commons:commons-lang3:3.7'
+
+	// Ok
+    implementation 'org.apache.commons:commons-collections4:4.1'
+
+	// Ok
+	runtime group: 'org.apache.commons', name: 'commons-math3', version: '3.6.1'
+}
+

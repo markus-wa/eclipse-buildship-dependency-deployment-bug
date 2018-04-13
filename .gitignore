@@ -1,1 +1,8 @@
-out
+/RemoteSystemsTempFiles/
+/.gradle/
+/.metadata/
+bin/
+.settings/
+build/
+.project
+.classpath

@@ -1,1 +1,5 @@
-rootProject.name = 'spring-boot-gradle-war'
+rootProject.name = 'myapp'
+
+include 'webapp'
+include 'compile-lib'
+include 'runtime-lib'

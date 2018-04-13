@@ -1,0 +1,14 @@
+apply plugin: 'java-library'
+apply plugin: 'eclipse-wtp'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+	// Missing!
+    api group: 'com.google.collections', name: 'google-collections', version: '1.0'
+
+	// Missing!
+    implementation 'com.google.guava:guava:23.0'
+}
