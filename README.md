@@ -4,7 +4,7 @@ This is a Minimal Working Example for a Eclipse Buildship bug where not all depe
 
 ## Expected behaviour
 
-`runtime-lib` - and it's dependencies:
+`runtime-lib` and it's dependencies:
 ```gradle
 dependencies {
 	// Missing!
@@ -18,7 +18,7 @@ are deployed to `WEB-INF/lib` when deploying to Tomcat 8 from Eclipse
 
 ## Actual behaviour
 
-`runtime-lib` - and it's dependencies are missing from `WEB-INF/lib`
+`runtime-lib` and it's dependencies are missing from `WEB-INF/lib`
 
 ## Reproduction
 
