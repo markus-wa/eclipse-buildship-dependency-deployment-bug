@@ -8,10 +8,10 @@ This is a Minimal Working Example for a Eclipse Buildship bug where not all depe
 ```gradle
 dependencies {
 	// Missing!
-    api group: 'com.google.collections', name: 'google-collections', version: '1.0'
+	api group: 'com.google.collections', name: 'google-collections', version: '1.0'
 
 	// Missing!
-    implementation 'com.google.guava:guava:23.0'
+	implementation 'com.google.guava:guava:23.0'
 }
 ```
 are deployed to `WEB-INF/lib` when deploying to Tomcat 8 from Eclipse
